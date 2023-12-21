@@ -5,12 +5,12 @@ import styles from 'styles/footer.module.css'
 const Footer = () => {
   return (
     <footer className={styles.wrapper}>
-      <div className={styles.flexContainer}>
-        <Container>
+      <Container>
+        <div className={styles.flexContainer}>
           <Logo />
           [ソーシャル]
-        </Container>
-      </div>
+        </div>
+      </Container>
     </footer>
   )
 }
