@@ -1,4 +1,8 @@
 import styles from 'styles/post-header.module.css'
+<<<<<<< HEAD
+=======
+import ConvertDate from 'components/convert-date'
+>>>>>>> chapter8
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock } from '@fortawesome/free-regular-svg-icons'
 
@@ -10,6 +14,10 @@ const PostHeader = ({ title, subtitle, publish = '' }) => {
       {publish && (
         <div className={styles.publish}>
           <FontAwesomeIcon icon={faClock} size='lg' color='var(--gray-25)' />
+<<<<<<< HEAD
+=======
+          <ConvertDate dateISO={publish} />
+>>>>>>> chapter8
           {publish}
         </div>
       )}
